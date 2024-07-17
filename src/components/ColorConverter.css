@@ -1,0 +1,24 @@
+.block {
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-input, .block-info {
+    width: 200px;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    align-self: center;
+}
+
+.block-info {
+    margin-top: 10px;
+    color: #FFFFFF;
+    background-color: rgba( 0,0,0,0.2);
+}
